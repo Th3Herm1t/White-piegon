@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+
+# Logs and sync results
+*.log
+sync_log_*.json
+sync_v2_log_*.json
+final_audit_results.txt
+recent_products.txt
+analysis_output.txt
+naming_analysis.txt
+sku_analysis.txt
+woocommerce_analysis.txt
+image_validation_report.txt
+xlsx_structure.txt
+
+# Data and Images
+images/
+woocommerce_data.json
+*.xlsx
+!FILLETTE  V3.xlsx # Example of keeping the main data file if desired, or just ignore all xlsx
+
+# IDEs
+.vscode/
+.idea/
+
+# WooCommerce documentation (if not needed in git)
+woocommerce-rest-api-docs/
